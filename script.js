@@ -56,7 +56,7 @@ newDiv.style.backgroundColor = 'purple'
 //    }})
 
 addGlobalEventListener('click', 'div', e => { //Only executes on newDiv, Same as e.target.matches
-    console.log('Hello newDiv')
+    console.log('Hello newDiv')               //Executes function only. Process addEventListener is stored below.
 })
 document.body.append(newDiv)
 
